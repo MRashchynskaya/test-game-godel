@@ -1,0 +1,32 @@
+#reset {
+    border:solid 1px gray;
+    color: gray;
+    margin-top: 5px;
+}
+
+td {
+    text-align:center;
+    font-family:Times New Roman;
+    color: gray;
+    vertical-align: middle;
+}
+
+#box td {
+    border: solid 1px gray;
+    text-align: center;
+    font-size: 40px;
+    font-family: Courier New, Courier, monospace;
+    color: gray;
+    width: 55px;
+    height: 55px;
+}
+
+#box td:hover {
+    background-color: grey;
+    color: greenyellow;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+}
